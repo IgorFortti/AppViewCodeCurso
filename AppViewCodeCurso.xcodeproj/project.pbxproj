@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		F49CFAEA6199F43631D200E1 /* Pods_AppViewCodeCurso.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 757D0A90E15D8B40DBBFBA08 /* Pods_AppViewCodeCurso.framework */; };
 		FA73E81429B10C7F002F43E3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA73E81329B10C7F002F43E3 /* AppDelegate.swift */; };
 		FA73E81629B10C7F002F43E3 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA73E81529B10C7F002F43E3 /* SceneDelegate.swift */; };
 		FA73E81829B10C7F002F43E3 /* LoginVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA73E81729B10C7F002F43E3 /* LoginVC.swift */; };
@@ -30,11 +29,13 @@
 		FAEA41E029B25BEE006BC4AD /* SportTableViewCellScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAEA41DF29B25BEE006BC4AD /* SportTableViewCellScreen.swift */; };
 		FAEA41E429B267FF006BC4AD /* SportCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAEA41E329B267FF006BC4AD /* SportCollectionViewCell.swift */; };
 		FAEA41E729B26836006BC4AD /* SportCollectionViewCellScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAEA41E629B26836006BC4AD /* SportCollectionViewCellScreen.swift */; };
+		FC2F6238566EA6D47BD659AC /* Pods_AppViewCodeCurso.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 499BEB7D0223D2176B52237A /* Pods_AppViewCodeCurso.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		757D0A90E15D8B40DBBFBA08 /* Pods_AppViewCodeCurso.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AppViewCodeCurso.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		B6D0F12826A6EF40A99C42B8 /* Pods-AppViewCodeCurso.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AppViewCodeCurso.debug.xcconfig"; path = "Target Support Files/Pods-AppViewCodeCurso/Pods-AppViewCodeCurso.debug.xcconfig"; sourceTree = "<group>"; };
+		126BCAA5FA0877585EA5CD97 /* Pods-AppViewCodeCurso.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AppViewCodeCurso.debug.xcconfig"; path = "Target Support Files/Pods-AppViewCodeCurso/Pods-AppViewCodeCurso.debug.xcconfig"; sourceTree = "<group>"; };
+		499BEB7D0223D2176B52237A /* Pods_AppViewCodeCurso.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AppViewCodeCurso.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D335DBFEBD5DFDA338BDE5EF /* Pods-AppViewCodeCurso.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AppViewCodeCurso.release.xcconfig"; path = "Target Support Files/Pods-AppViewCodeCurso/Pods-AppViewCodeCurso.release.xcconfig"; sourceTree = "<group>"; };
 		FA73E81029B10C7F002F43E3 /* AppViewCodeCurso.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AppViewCodeCurso.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FA73E81329B10C7F002F43E3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		FA73E81529B10C7F002F43E3 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -57,7 +58,6 @@
 		FAEA41DF29B25BEE006BC4AD /* SportTableViewCellScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SportTableViewCellScreen.swift; sourceTree = "<group>"; };
 		FAEA41E329B267FF006BC4AD /* SportCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SportCollectionViewCell.swift; sourceTree = "<group>"; };
 		FAEA41E629B26836006BC4AD /* SportCollectionViewCellScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SportCollectionViewCellScreen.swift; sourceTree = "<group>"; };
-		FE63D4B1E6DF940026CF192D /* Pods-AppViewCodeCurso.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AppViewCodeCurso.release.xcconfig"; path = "Target Support Files/Pods-AppViewCodeCurso/Pods-AppViewCodeCurso.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -66,29 +66,29 @@
 			buildActionMask = 2147483647;
 			files = (
 				FA73E83C29B13CBC002F43E3 /* FirebaseCrashlytics in Frameworks */,
-				F49CFAEA6199F43631D200E1 /* Pods_AppViewCodeCurso.framework in Frameworks */,
 				FA73E83A29B13CBC002F43E3 /* FirebaseAuth in Frameworks */,
+				FC2F6238566EA6D47BD659AC /* Pods_AppViewCodeCurso.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		85921DB3187906424F7D60BF /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				499BEB7D0223D2176B52237A /* Pods_AppViewCodeCurso.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		96172047A3CFDAEA54B9848A /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				B6D0F12826A6EF40A99C42B8 /* Pods-AppViewCodeCurso.debug.xcconfig */,
-				FE63D4B1E6DF940026CF192D /* Pods-AppViewCodeCurso.release.xcconfig */,
+				126BCAA5FA0877585EA5CD97 /* Pods-AppViewCodeCurso.debug.xcconfig */,
+				D335DBFEBD5DFDA338BDE5EF /* Pods-AppViewCodeCurso.release.xcconfig */,
 			);
 			path = Pods;
-			sourceTree = "<group>";
-		};
-		AE7C8B78F48A0D075E42A1BA /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				757D0A90E15D8B40DBBFBA08 /* Pods_AppViewCodeCurso.framework */,
-			);
-			name = Frameworks;
 			sourceTree = "<group>";
 		};
 		FA73E80729B10C7F002F43E3 = {
@@ -97,7 +97,7 @@
 				FA73E81229B10C7F002F43E3 /* AppViewCodeCurso */,
 				FA73E81129B10C7F002F43E3 /* Products */,
 				96172047A3CFDAEA54B9848A /* Pods */,
-				AE7C8B78F48A0D075E42A1BA /* Frameworks */,
+				85921DB3187906424F7D60BF /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -288,11 +288,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = FA73E82429B10C82002F43E3 /* Build configuration list for PBXNativeTarget "AppViewCodeCurso" */;
 			buildPhases = (
-				7262013CA3703211A2FA585E /* [CP] Check Pods Manifest.lock */,
+				E8ED206F65104B1139933FFC /* [CP] Check Pods Manifest.lock */,
 				FA73E80C29B10C7F002F43E3 /* Sources */,
 				FA73E80D29B10C7F002F43E3 /* Frameworks */,
 				FA73E80E29B10C7F002F43E3 /* Resources */,
-				D22B1F7E2D3B9A54A0D66282 /* [CP] Embed Pods Frameworks */,
+				82B141DFAC4DB7D7039B262E /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -357,7 +357,24 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		7262013CA3703211A2FA585E /* [CP] Check Pods Manifest.lock */ = {
+		82B141DFAC4DB7D7039B262E /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-AppViewCodeCurso/Pods-AppViewCodeCurso-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-AppViewCodeCurso/Pods-AppViewCodeCurso-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-AppViewCodeCurso/Pods-AppViewCodeCurso-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E8ED206F65104B1139933FFC /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -377,23 +394,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
-		D22B1F7E2D3B9A54A0D66282 /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-AppViewCodeCurso/Pods-AppViewCodeCurso-frameworks-${CONFIGURATION}-input-files.xcfilelist",
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-AppViewCodeCurso/Pods-AppViewCodeCurso-frameworks-${CONFIGURATION}-output-files.xcfilelist",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-AppViewCodeCurso/Pods-AppViewCodeCurso-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
@@ -555,7 +555,7 @@
 		};
 		FA73E82529B10C82002F43E3 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = B6D0F12826A6EF40A99C42B8 /* Pods-AppViewCodeCurso.debug.xcconfig */;
+			baseConfigurationReference = 126BCAA5FA0877585EA5CD97 /* Pods-AppViewCodeCurso.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -583,7 +583,7 @@
 		};
 		FA73E82629B10C82002F43E3 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = FE63D4B1E6DF940026CF192D /* Pods-AppViewCodeCurso.release.xcconfig */;
+			baseConfigurationReference = D335DBFEBD5DFDA338BDE5EF /* Pods-AppViewCodeCurso.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
